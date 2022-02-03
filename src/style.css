@@ -36,7 +36,7 @@
   margin-top: -16px;
 }
 #content {
-  width: 60%;
+  width: 70%;
   float: left;
   margin-left: 40px;
 }
@@ -50,10 +50,10 @@
   margin-top: 6px;
 }
 #sidebar {
-  width: 35%;
+  width: 25%;
   float: right;
   background-color: rgb(224, 224, 224);
-  padding-bottom: 55vh;
+  padding-bottom: 52vh;
 }
 #sidebar p {
   margin-left: 20px;
@@ -67,4 +67,17 @@
 #sidebar .side-cont {
   font-size: 18px;
   margin-top: -28px;
+}
+
+/* ===================================Footer================================== */
+#footer{
+    background-color: rgb(204,204,204);
+    padding-bottom: 7px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+#footer p{
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
 }
