@@ -1,3 +1,7 @@
+/* body{
+  overflow: hidden ;
+} */
+
 /* ==================================Header=============================== */
 #header p {
   font-size: 40px;
@@ -32,6 +36,7 @@
 
 /* =============================Main content========================= */
 #main {
+  display: flex;
   overflow: hidden;
   margin-top: -16px;
 }
@@ -50,7 +55,7 @@
   margin-top: 6px;
 }
 #sidebar {
-  width: 25%;
+  width: 28%;
   float: right;
   background-color: rgb(224, 224, 224);
   padding-bottom: 52vh;
